@@ -1,10 +1,10 @@
 # Module05Exercise01
 
-## Landing Page
-![1](mod05exe01pics/1.png)
+## Add Employee
+![1](mod05exe01pics/3.png)
 
-## Employee Page
-![2](mod05exe01pics/2.png)
+## Delete Employee
+![2](mod05exe01pics/4.png)
 
 
 # Module05-Exercise02
