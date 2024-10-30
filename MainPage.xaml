@@ -1,0 +1,50 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module05Exercise01.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#FFFFFF">
+
+    <!-- White background -->
+    <Grid VerticalOptions="Center" HorizontalOptions="Center">
+        <ScrollView>
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="25"
+                >
+
+                <Image
+                    Source="dunkin_logo.jpg"
+                    HeightRequest="150"
+                    Aspect="AspectFit"
+                    SemanticProperties.Description="Dunkin' Donuts Logo" />
+
+                <Label
+                    Text="Welcome to Dunkin' App!"
+                    FontSize="24"
+                    FontAttributes="Bold"
+                    TextColor="#F04D23" 
+                    HorizontalOptions="Center"
+                    Margin="0,10"/>
+
+                <Label
+                    Text="Your ultimate app for team management with a sprinkle of fun!"
+                    FontSize="18"
+                    TextColor="#333333"
+                    HorizontalOptions="Center"
+                    Margin="0,10"/>
+
+                <Button 
+                    Text="View Employee"
+                    BackgroundColor="#EA1680" 
+                    TextColor="White"
+                    CornerRadius="20"
+                    Padding="10"
+                    FontSize="18"
+                    HorizontalOptions="Fill"
+                    Clicked="OpenViewEmployee"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
